@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'zygo';
+    src:url(FUENTES/ZYGO.TTF);
+    font-weight: normal;
+    font-style:normal;
+}
+
+.titulo {
+    font-family: "zygo";
+    font-weight: 10000;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+
+}
