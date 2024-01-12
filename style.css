@@ -1,4 +1,27 @@
-@font-face {
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #videoFondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+  }
+  
+  .contenido {
+    position: relative;
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  @font-face {
     font-family: 'zygo';
     src:url(FUENTES/ZYGO.TTF);
     font-weight: normal;
@@ -11,6 +34,98 @@
     padding-top: 1%;
     text-align: center;
     font-size: 80px;
-    color: white;
-
 }
+
+.subtitulo {
+    font-family: "zygo";
+    font-weight: 1000;
+    margin-top: -8%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    z-index: 1001;
+    
+    
+
+    
+    
+
+
+  }
+  
+  .close-icon {
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: darkrgb(189, 189, 181);
+    padding-top: 50px;
+    transition: left 0.3s ease-in;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    padding: 15px;
+    border-bottom: 1px solid #8c00ff;
+  }
+  
+  .menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked ~ .menu {
+    left: 0;
+  }
+  
+  input[type="checkbox"]:checked ~ .close-icon {
+    display: block;
+
+  }
+  
+  input[type="checkbox"]:checked ~ .icon {
+    display: none;
+  }
+
+  .art__h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .art__button {
+        padding: 10px 20px;
+        width: 1360px;
+    left: auto;
+    bottom: auto;
+    
+    }
+    
