@@ -45,27 +45,22 @@ body {
 }
 
 .icon {
-    font-size: 30px;
+    font-size: 45px;
     cursor: pointer;
     color: #ffffff;
     position: absolute;
-    top: 10px;
     left: 10px; 
     z-index: 1001;
+    margin-top: -260px;
     
     
-
-    
-    
-
-
   }
   
   .close-icon {
     display: none;
     font-size: 30px;
     position: absolute;
-    top: 20px;
+     margin-top: -260px;
     right: 20px;
     color: #ffffff;
     cursor: pointer;
@@ -79,7 +74,6 @@ body {
     width: 250px;
     height: 100%;
     background: darkrgb(189, 189, 181);
-    padding-top: 50px;
     transition: left 0.3s ease-in;
   }
   
@@ -97,6 +91,9 @@ body {
   .menu ul li a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 24px;
+    margin-top: 20px;
+
   }
   
   input[type="checkbox"] {
