@@ -28,18 +28,18 @@
         </nav>
         </div>
         <h1><h2 class="text-warning servicio subform" >¿Te interesa contratar nuestros servicios?</h2></h1>
-        <form  action="/enviar.php" method="post" >
-            <label class="text-warning form"  for="Nombre y Apellido" >Nombre y Apellido*:</label>
+        <form class="contenido"  action="/enviar.php" method="post" >
+            <label class="text-warning form__nom"  for="Nombre y Apellido" >Nombre y Apellido*:</label>
             <input type="Nombre y Apellido" id="Nombre y Apellido"  name="Nombre y Apellido" required placeholder="Completar"><br><br>
         
-            <label class="text-warning form" for="Telefono">Telefono*:</label>
+            <label class="text-warning form__tel" for="Telefono">Telefono*:</label>
             <input type="telefono" id="telefono" name="telefono" required placeholder="Completar"><br><br>
         
-            <label class="text-warning form" for="Mail">Mail*:</label>
+            <label class="text-warning form__mail" for="Mail">Mail*:</label>
             <input type="Mail" id="Mail" name="Mail" required placeholder="Completar"><br><br>
         
-            <label class="text-warning form"  for="mensaje"> Mensaje*:</label><br>
-            <textarea class="textarea form" id="mensaje" name="mensaje" rows="8" required placeholder="Escribe tu mensaje..."></textarea><br>
+            <label class="text-warning form__msj"  for="mensaje"> Mensaje*:</label><br>
+            <textarea class="textarea" id="mensaje" name="mensaje" rows="8" required placeholder="Escribe tu mensaje..."></textarea><br>
         <p class=" text-warning form">Campos obligatorios*</p>
             <input class="text-warning form " type="submit" value="enviar">
       

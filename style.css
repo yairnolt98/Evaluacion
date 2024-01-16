@@ -12,7 +12,27 @@ body {
     object-fit: cover;
     z-index: -1; 
   }
+
+  .youtubelogo {
+    max-width: 100px; 
+    width: 100%; 
+    height: auto; 
+    margin-left: 10.4%;
+    animation: parpadeo 1s infinite;
+  }
   
+  @keyframes parpadeo {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+
+    }
+  
+  .img__p {
+    color: #ffffff;
+    margin-left: 65%;
+    margin-top: -3%;
+  }
   .contenido {
     position: relative;
     z-index: 1; 
@@ -158,9 +178,28 @@ body {
         height: 80px;
       }
 
-      .form {
-        margin-left: 10%;
+      .form__nom {
+        margin-left: -51%;
+        font-family: "zygo";
+        padding-left: 7% ;
+      }
+
+      .form__tel {
+        margin-left: -51%;
         font-family: "zygo";
       }
 
-    
+      .form__mail {
+        margin-left: -55%;
+        font-family: "zygo";
+        padding-left: -3%;
+      }
+
+      .form__msj {
+        font-family: "zygo";
+        margin-left: -67%;
+      }
+
+      .card-img-top-custom {
+        margin-top: -200px;
+     }
