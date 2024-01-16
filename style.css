@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
   }
   
   #videoFondo {
@@ -42,7 +42,15 @@ body {
     margin-top: -8%;
     text-align: center;
     font-size: 40px;
+    color: #ffffff;
 }
+
+.imghome {
+    height: 150px;
+    padding-left: 41%;
+
+}
+
 
 .icon {
     font-size: 45px;
@@ -73,7 +81,7 @@ body {
     left: -250px;
     width: 250px;
     height: 100%;
-    background: darkrgb(189, 189, 181);
+    
     transition: left 0.3s ease-in;
   }
   
@@ -125,4 +133,34 @@ body {
     bottom: auto;
     
     }
+    
+    .photo-panel {
+        margin-top: 20px;
+      }
+      
+   
+      .photo-panel img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      .servicio {
+        margin-top: -12%;
+        text-align: center;
+        font-family: "zygo";
+
+      }
+
+      .textarea {
+        width: 1000px;
+        height: 80px;
+      }
+
+      .form {
+        margin-left: 10%;
+        font-family: "zygo";
+      }
+
     
