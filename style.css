@@ -63,6 +63,7 @@ body {
     text-align: center;
     font-size: 40px;
     color: #ffffff;
+    
 }
 
 .imghome {
@@ -83,6 +84,7 @@ body {
     
     
   }
+  
   
   .close-icon {
     display: none;
@@ -153,6 +155,15 @@ body {
     bottom: auto;
     
     }
+
+    .subtitulo__galeria {
+      font-family: "zygo";
+      font-weight: 1000;
+      margin-top: -5%;
+      text-align: center;
+      font-size: 40px;
+      color: #ffffff;
+    }  
     
     .photo-panel {
         margin-top: 20px;
@@ -200,6 +211,7 @@ body {
         margin-left: -67%;
       }
 
-      .card-img-top-custom {
-        margin-top: -200px;
+      .card-img-top {
+        margin-top: -150px;
+        height: 600px;
      }
